@@ -1,10 +1,9 @@
-package belajar_baris;
+package Arithmetic;
 
-public class Line_05 {
+public class Line_02 {
 
-	// output = 1 -3 99 -7 9 -11 13 -15 99
+	// output = 1 -3 5 -7 9 -11 13 -15 17
 	public static void main(String[] args) {
-
 		int n = 9;
 		int idx = 1;
 		int idxGanjil = 1;
@@ -13,8 +12,6 @@ public class Line_05 {
 		for (int i = 0; i < bilGanjil.length; i++) {
 			if (idx % 2 == 0) {
 				bilGanjil[i] = -(idxGanjil);
-			} else if (idx % 3 == 0) {
-				bilGanjil[i] = 99;
 			} else {
 				bilGanjil[i] = idxGanjil;
 			}

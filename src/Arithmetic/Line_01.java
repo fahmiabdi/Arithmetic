@@ -1,16 +1,17 @@
-package belajar_baris;
+package Arithmetic;
 
-public class Line_03 {
+public class Line_01 {
 
-	// output = 1 3 -5 7 9 -11 13 15 -17
+	// output = -1 3 -5 7 -9 11 -13 15 -17
 	public static void main(String[] args) {
+
 		int n = 9;
 		int idx = 1;
 		int idxGanjil = 1;
 		int[] bilGanjil = new int[n];
 
 		for (int i = 0; i < bilGanjil.length; i++) {
-			if (idx % 3 == 0) {
+			if (idx % 2 == 1) {
 				bilGanjil[i] = -(idxGanjil);
 			} else {
 				bilGanjil[i] = idxGanjil;

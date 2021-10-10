@@ -1,4 +1,4 @@
-package belajar_baris;
+package Arithmetic;
 
 public class Line_07 {
 
